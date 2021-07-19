@@ -1,0 +1,48 @@
+<!--Editor: Ya-Ting Chuang-->
+<!--http://ppt.cc/nIcwE -->
+
+<!doctype html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+		<link href="./css/style.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+		<script type="text/javascript" language="Javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+	</head>
+	
+	<body>
+		<center><div id="input_section" style="visibility:visible;margin-top:50px;"> 
+			
+			<img src="./temp_cht/balloon_no_background_9.png"></img>
+		</div> 
+		
+		
+			<p id="text" style="text-align:center;">玩法:在不充破氣球的情況下,盡可能將氣球充氣累績金額,<br>若您已經準備好, 請按下一步</br></p>
+			
+			<p id="input_name_section" style="font-size:20px; font-family: 'Times New Roman', 'PMingLiU;';margin-top: 20px;	visibility: visible;">請輸入您的英文名字: <input style="color: rgb(0,0,0);" id="input_name"></br></br></p>
+			<button id="button">下一步</button><br>
+			<button id="button_start" style="visibility:hidden;" onClick="button_start();">下一步</button>
+			</center>
+		
+		<center><div>	
+			<div id="exp_start" style="visibility:hidden;">
+				
+				<table border="0px" style="text-align:center;padding:0px;width:1000px;table-layout: fixed;">
+					<tr>
+						<td colspan="2"><img id="img_balloon" src="./temp_cht/balloon_no_background_0.png"></img></td>
+						<td rowspan="2"><p id="text1">test</p></td>
+					</tr>
+					<tr>
+						<td><button id="pump" onClick="pump_click();"><img src="./temp_cht/PumpButton.png" width="250px" height="70px" border="0px"></img></button></td>
+						<td><button id="collect" onClick="collect_click();"><img src="./temp_cht/CollectButton.png" width="250px" height="70px" border="0px"></img></button></td>
+					</tr>
+				</table>
+			
+			</div>
+		</div> </center>
+		
+	</body>
+</html>
+ 
